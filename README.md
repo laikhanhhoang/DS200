@@ -4,4 +4,4 @@
 
 ## Reference Materials
 
-- **stephenbaek's Repo** – [bigdata](https://github.com/stephenbaek/bigdata)
+- **stephenbaek's repo**  [bigdata](https://github.com/stephenbaek/bigdata).
