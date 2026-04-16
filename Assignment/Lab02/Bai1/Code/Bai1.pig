@@ -1,6 +1,12 @@
+-- ==========================================================
+-- TỰ ĐỘNG XÓA KẾT QUẢ CŨ (Để không bị lỗi STORE)
+-- ==========================================================
+fs -rm -r -f KetQua
+
+
 -- 1. Tải dữ liệu và Stopwords
-raw_data = LOAD 'hotel-review.csv' USING PigStorage(';') AS (id:chararray, comment:chararray);
-stopwords = LOAD 'stopwords.txt' AS (stopword:chararray);
+raw_data = LOAD '../dataset/hotel-review.csv' USING PigStorage(';') AS (id:chararray, comment:chararray);
+stopwords = LOAD '../dataset/stopwords.txt' AS (stopword:chararray);
 
 -- 2. Chuyển về chữ thường (Lowercase)
 lower_data = FOREACH raw_data GENERATE id, LOWER(comment) AS comment_lower;
@@ -18,4 +24,4 @@ final_result = FOREACH filtered_words GENERATE words_data::id, words_data::word;
 
 -- 6. LƯU KẾT QUẢ VÀO THƯ MỤC
 -- Lưu ý: Thư mục KetQuaBai1 không được tồn tại trước khi chạy lệnh này
-STORE final_result INTO 'KetQuaBai1' USING PigStorage(',');
+STORE final_result INTO 'KetQua' USING PigStorage(',');

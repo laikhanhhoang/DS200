@@ -1,7 +1,13 @@
 -- ==========================================================
+-- TỰ ĐỘNG XÓA KẾT QUẢ CŨ (Để không bị lỗi STORE)
+-- ==========================================================
+fs -rm -r -f KetQua
+
+
+-- ==========================================================
 -- LOAD DATA
 -- ==========================================================
-data = LOAD 'hotel-review.csv' USING PigStorage(';') 
+data = LOAD '../dataset/hotel-review.csv' USING PigStorage(';') 
 AS (
     id:chararray, 
     comment:chararray, 
@@ -11,7 +17,7 @@ AS (
 );
 
 -- LOAD KẾT QUẢ BÀI 1
-cleaned_words = LOAD 'KetQuaBai1' USING PigStorage(',') 
+cleaned_words = LOAD '../Bai1/KetQua' USING PigStorage(',') 
 AS (id:chararray, word:chararray);
 
 -- ==========================================================
@@ -57,8 +63,8 @@ GENERATE
 -- ==========================================================
 -- LƯU KẾT QUẢ
 -- ==========================================================
-STORE high_freq_words INTO 'ThongKe_TuTren500' USING PigStorage(',');
+STORE high_freq_words INTO 'KetQua/Tu_SoLanXuatHien_Tren500' USING PigStorage(',');
 
-STORE category_counts INTO 'ThongKe_Category' USING PigStorage(',');
+STORE category_counts INTO 'KetQua/BinhLuan_SoLuong_Cate' USING PigStorage(',');
 
-STORE aspect_counts   INTO 'ThongKe_Aspect'   USING PigStorage(',');
+STORE aspect_counts   INTO 'KetQua/BinhLuan_SoLuong_Aspect'   USING PigStorage(',');

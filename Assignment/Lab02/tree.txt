@@ -1,0 +1,75 @@
+Folder PATH listing for volume New Volume
+Volume serial number is 6E8A-9AD8
+D:.
+¦   assignments.ipynb
+¦   DS200.pdf
+¦   tree.txt
+¦   
++---Bai1
+¦   +---Code
+¦   ¦       Bai1.pig
+¦   ¦       
+¦   +---KetQua
+¦           .part-m-00000.crc
+¦           ._SUCCESS.crc
+¦           part-m-00000
+¦           _SUCCESS
+¦           
++---Bai2
+¦   +---Code
+¦   ¦       Bai2.pig
+¦   ¦       
+¦   +---KetQua
+¦       +---BinhLuan_SoLuong_Category
+¦       ¦       .part-r-00000.crc
+¦       ¦       ._SUCCESS.crc
+¦       ¦       part-r-00000
+¦       ¦       _SUCCESS
+¦       ¦       
+¦       +---SoBinhLuan_SoLuong_Aspect
+¦       ¦       .part-r-00000.crc
+¦       ¦       ._SUCCESS.crc
+¦       ¦       part-r-00000
+¦       ¦       _SUCCESS
+¦       ¦       
+¦       +---Tu_TanSoXuatHien_Tren500
+¦               .part-r-00000.crc
+¦               ._SUCCESS.crc
+¦               part-r-00000
+¦               _SUCCESS
+¦               
++---Bai3
+¦   +---Code
+¦   ¦       Bai3.pig
+¦   ¦       
+¦   +---KetQua
+¦   ¦   +---KhiaCanh_DanhGiaTichCuc_NhieuNhat
+¦   ¦   +---KhiaCanh_DanhGiaTieuCuc_NhieuNhat
+¦   +---KetQuaBai3
+¦           part-m-00000
+¦           part-m-00001
+¦           _SUCCESS
+¦           
++---Bai4
+¦   ¦   Bai4.pig
+¦   ¦   
+¦   +---KetQuaBai4
+¦       +---KetQua_Bai4_Neg
+¦       ¦       part-r-00000
+¦       ¦       _SUCCESS
+¦       ¦       
+¦       +---KetQua_Bai4_Pos
+¦               part-r-00000
+¦               _SUCCESS
+¦               
++---Bai5
+¦   ¦   Bai5.pig
+¦   ¦   
+¦   +---KetQuaBai5
+¦           part-r-00000
+¦           _SUCCESS
+¦           
++---dataset
+        hotel-review.csv
+        stopwords.txt
+        
