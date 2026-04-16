@@ -1,6 +1,9 @@
+fs -rm -r -f KetQua
+
+
 -- 1. Tải dữ liệu gốc (ngăn cách bởi dấu ;)
-raw_data = LOAD 'hotel-review.csv' USING PigStorage(';') AS (id:chararray, comment:chararray, category:chararray, aspect:chararray, sentiment:chararray);
-stopwords = LOAD 'stopwords.txt' AS (stopword:chararray);
+raw_data = LOAD '../dataset/hotel-review.csv' USING PigStorage(';') AS (id:chararray, comment:chararray, category:chararray, aspect:chararray, sentiment:chararray);
+stopwords = LOAD '../dataset/stopwords.txt' AS (stopword:chararray);
 
 -- 2. Tiền xử lý: Chuyển chữ thường và tách từ
 lower_data = FOREACH raw_data GENERATE category, LOWER(sentiment) AS sentiment, LOWER(comment) AS comment_lower;
@@ -39,6 +42,5 @@ top5_neg = FOREACH neg_ordered {
 DUMP top5_pos;
 DUMP top5_neg;
 
-rmf KetQua_Bai4_Pos; rmf KetQua_Bai4_Neg;
-STORE top5_pos INTO 'KetQua_Bai4_Pos' USING PigStorage(',');
-STORE top5_neg INTO 'KetQua_Bai4_Neg' USING PigStorage(',');
+STORE top5_pos INTO 'KetQua/Word_Pos_Top5' USING PigStorage(',');
+STORE top5_neg INTO 'KetQua/Word_Neg_Top5' USING PigStorage(',');

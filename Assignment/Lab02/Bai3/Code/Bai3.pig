@@ -37,7 +37,7 @@ top_one_ranked = FILTER ranked_pos BY $0 == 1;
 top_pos_final = FOREACH top_one_ranked GENERATE aspect, total;
 
 -- Lưu lại khía cạnh nhận nhiều đánh giá tích cực nhất
-STORE top_pos_final INTO 'KetQua/Aspect_PositiveSentiment_NhieuNhat' USING PigStorage(',');
+STORE top_pos_final INTO 'KetQua/Aspect_Pos_NhieuNhat' USING PigStorage(',');
 
 
 
@@ -54,4 +54,4 @@ top_neg_ranked = FILTER ranked_neg BY $0 == 1;
 top_neg_final = FOREACH top_neg_ranked GENERATE aspect, total;
 
 -- Lưu lại khía cạnh nhận nhiều đánh giá tiêu cực nhất
-STORE top_neg_final INTO 'KetQua/Aspect_NegativeSentiment_NhieuNhat' USING PigStorage(',');
+STORE top_neg_final INTO 'KetQua/Aspect_NegSentiment_NhieuNhat' USING PigStorage(',');
