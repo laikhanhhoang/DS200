@@ -1,6 +1,9 @@
+fs -rm -r -f KetQua
+
+
 -- 1. Tải dữ liệu gốc (dấu phân cách ;)
-raw_data = LOAD 'hotel-review.csv' USING PigStorage(';') AS (id:chararray, comment:chararray, category:chararray, aspect:chararray, sentiment:chararray);
-stopwords = LOAD 'stopwords.txt' AS (stopword:chararray);
+raw_data = LOAD '../dataset/hotel-review.csv' USING PigStorage(';') AS (id:chararray, comment:chararray, category:chararray, aspect:chararray, sentiment:chararray);
+stopwords = LOAD '../dataset/stopwords.txt' AS (stopword:chararray);
 
 -- 2. Tiền xử lý: Chuyển chữ thường và tách từ
 lower_data = FOREACH raw_data GENERATE category, LOWER(comment) AS comment_lower;
@@ -27,4 +30,4 @@ top5_related = FOREACH group_by_cat {
 DUMP top5_related;
 
 rmf KetQua_Bai5;
-STORE top5_related INTO 'KetQua_Bai5' USING PigStorage(',');
+STORE top5_related INTO 'KetQua' USING PigStorage(',');
