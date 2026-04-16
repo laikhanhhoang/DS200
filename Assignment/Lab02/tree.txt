@@ -2,7 +2,8 @@ Folder PATH listing for volume New Volume
 Volume serial number is 6E8A-9AD8
 D:.
 ¦   assignments.ipynb
-¦   DS200.pdf
+¦   README.md
+¦   README.pdf
 ¦   tree.txt
 ¦   
 +---Bai1
@@ -20,19 +21,19 @@ D:.
 ¦   ¦       Bai2.pig
 ¦   ¦       
 ¦   +---KetQua
-¦       +---BinhLuan_SoLuong_Category
+¦       +---BinhLuan_SoLuong_Aspect
 ¦       ¦       .part-r-00000.crc
 ¦       ¦       ._SUCCESS.crc
 ¦       ¦       part-r-00000
 ¦       ¦       _SUCCESS
 ¦       ¦       
-¦       +---SoBinhLuan_SoLuong_Aspect
+¦       +---BinhLuan_SoLuong_Cate
 ¦       ¦       .part-r-00000.crc
 ¦       ¦       ._SUCCESS.crc
 ¦       ¦       part-r-00000
 ¦       ¦       _SUCCESS
 ¦       ¦       
-¦       +---Tu_TanSoXuatHien_Tren500
+¦       +---Tu_SoLanXuatHien_Tren500
 ¦               .part-r-00000.crc
 ¦               ._SUCCESS.crc
 ¦               part-r-00000
@@ -43,33 +44,67 @@ D:.
 ¦   ¦       Bai3.pig
 ¦   ¦       
 ¦   +---KetQua
-¦   ¦   +---KhiaCanh_DanhGiaTichCuc_NhieuNhat
-¦   ¦   +---KhiaCanh_DanhGiaTieuCuc_NhieuNhat
-¦   +---KetQuaBai3
-¦           part-m-00000
-¦           part-m-00001
-¦           _SUCCESS
-¦           
+¦       +---Aspect_NegSentiment_NhieuNhat
+¦       ¦       .part-m-00000.crc
+¦       ¦       ._SUCCESS.crc
+¦       ¦       part-m-00000
+¦       ¦       _SUCCESS
+¦       ¦       
+¦       +---Aspect_Pos_NhieuNhat
+¦               .part-m-00000.crc
+¦               ._SUCCESS.crc
+¦               part-m-00000
+¦               _SUCCESS
+¦               
 +---Bai4
-¦   ¦   Bai4.pig
-¦   ¦   
-¦   +---KetQuaBai4
-¦       +---KetQua_Bai4_Neg
+¦   +---Code
+¦   ¦       Bai4.pig
+¦   ¦       
+¦   +---KetQua
+¦       +---Word_Neg_Top5
+¦       ¦       .part-r-00000.crc
+¦       ¦       ._SUCCESS.crc
 ¦       ¦       part-r-00000
 ¦       ¦       _SUCCESS
 ¦       ¦       
-¦       +---KetQua_Bai4_Pos
+¦       +---Word_Pos_Top5
+¦               .part-r-00000.crc
+¦               ._SUCCESS.crc
 ¦               part-r-00000
 ¦               _SUCCESS
 ¦               
 +---Bai5
-¦   ¦   Bai5.pig
-¦   ¦   
-¦   +---KetQuaBai5
+¦   +---Code
+¦   ¦       Bai5.pig
+¦   ¦       
+¦   +---KetQua
+¦           .part-r-00000.crc
+¦           ._SUCCESS.crc
 ¦           part-r-00000
 ¦           _SUCCESS
 ¦           
 +---dataset
-        hotel-review.csv
-        stopwords.txt
+¦       hotel-review.csv
+¦       stopwords.txt
+¦       
++---imgs
+        lab02_bai1_res.png
+        lab02_bai1_term_down.png
+        lab02_bai1_term_up.png
+        lab02_bai2_res_slblaspect.png
+        lab02_bai2_res_slblcate.png
+        lab02_bai2_res_tren500.png
+        lab02_bai2_term_down.png
+        lab02_bai2_term_up.png
+        lab02_bai3_res_neg.png
+        lab02_bai3_res_pos.png
+        lab02_bai3_term_down.png
+        lab02_bai3_term_uppng.png
+        lab02_bai4_res_neg.png
+        lab02_bai4_res_pos.png
+        lab02_bai4_term_down.png
+        lab02_bai4_term_up.png
+        lab02_bai5_res.png
+        lab02_bai5_term_down.png
+        lab02_bai5_term_up.png
         
