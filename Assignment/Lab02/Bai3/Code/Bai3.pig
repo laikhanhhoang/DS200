@@ -1,36 +1,57 @@
--- 1. Load dữ liệu với đúng thứ tự cột của file thực tế
+fs -rm -r -f KetQua
+
+-- 1. Đổi thành dấu PHẨY và đúng thứ tự cột
 raw_data = LOAD '../dataset/hotel-review.csv' USING PigStorage(';') AS (
     id:chararray, 
     comment:chararray, 
-    aspect:chararray,  -- Cột 3 là Aspect (GENERAL, QUALITY)
-    category:chararray, -- Cột 4 là Category (HOTEL, SERVICE)
+    category:chararray, 
+    aspect:chararray, 
     sentiment:chararray
 );
 
--- 2. Lọc bỏ dòng tiêu đề và dữ liệu lỗi (Tránh lỗi 2244)
-clean_data = FILTER raw_data BY (id != 'id') AND (aspect IS NOT NULL) AND (sentiment IS NOT NULL);
+-- 1.1. Loại bỏ dòng tiêu đề
+raw_data = FILTER raw_data BY id != 'id';
 
--- 3. Tách dữ liệu Positive và Negative
-pos_data = FILTER clean_data BY LOWER(sentiment) == 'positive';
-neg_data = FILTER clean_data BY LOWER(sentiment) == 'negative';
+-- Check raw_data
+--STORE raw_data INTO 'KetQua/raw_data' USING PigStorage(',');
 
--- 4. Xử lý Positive cao nhất
+
+-- 2. Lọc ra các dòng Tích cực và Tiêu cực
+-- Lưu ý: Pig phân biệt hoa thường, nên để chắc chắn ta dùng LOWER
+pos_data = FILTER raw_data BY LOWER(sentiment) == 'positive';
+neg_data = FILTER raw_data BY LOWER(sentiment) == 'negative';
+
+-- Check pos_data và neg_data
+--STORE pos_data INTO 'KetQua/pos_data'   USING PigStorage(',');
+--STORE neg_data INTO 'KetQua/neg_data'   USING PigStorage(',');
+
+
+-- 3. Tìm Aspect có nhiều Positive nhất
 group_pos = GROUP pos_data BY aspect;
-count_pos = FOREACH group_pos GENERATE group AS aspect, 'Positive' AS type, COUNT(pos_data) AS total;
+count_pos = FOREACH group_pos GENERATE 
+                group AS aspect, 
+                (long)COUNT(pos_data) AS total;
 ordered_pos = ORDER count_pos BY total DESC;
-top_pos = LIMIT ordered_pos 1;
+ranked_pos = RANK ordered_pos;
+top_one_ranked = FILTER ranked_pos BY $0 == 1;
+top_pos_final = FOREACH top_one_ranked GENERATE aspect, total;
 
--- 5. Xử lý Negative cao nhất
+-- Lưu lại khía cạnh nhận nhiều đánh giá tích cực nhất
+STORE top_pos_final INTO 'KetQua/Aspect_PositiveSentiment_NhieuNhat' USING PigStorage(',');
+
+
+
+
+-- 4. Tìm Aspect có nhiều Negative nhất
 group_neg = GROUP neg_data BY aspect;
-count_neg = FOREACH group_neg GENERATE group AS aspect, 'Negative' AS type, COUNT(neg_data) AS total;
+count_neg = FOREACH group_neg GENERATE 
+                group AS aspect, 
+                (long)COUNT(neg_data) AS total;
+
 ordered_neg = ORDER count_neg BY total DESC;
-top_neg = LIMIT ordered_neg 1;
+ranked_neg  = RANK ordered_neg;
+top_neg_ranked = FILTER ranked_neg BY $0 == 1;
+top_neg_final = FOREACH top_neg_ranked GENERATE aspect, total;
 
--- 6. Gộp và Lưu kết quả
--- Lưu ý: Trong local mode dùng 'fs -rm -r -f' thay cho 'rmf' để an toàn hơn
-
-final_output = UNION top_pos, top_neg;
-STORE final_output INTO 'KetQua' USING PigStorage(',');
-
--- Hiển thị kết quả ra màn hình
-DUMP final_output;
+-- Lưu lại khía cạnh nhận nhiều đánh giá tiêu cực nhất
+STORE top_neg_final INTO 'KetQua/Aspect_NegativeSentiment_NhieuNhat' USING PigStorage(',');
