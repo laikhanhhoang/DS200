@@ -1,0 +1,66 @@
+--- DIEM TRUNG BINH PHIM THEO NHOM TUOI ---
+--------------------------------------------------
+ID: 1010 | Phim: Lawrence of Arabia ( | Nhóm tuổi: 25-34    | Điểm TB: 3.60
+ID: 1010 | Phim: Lawrence of Arabia ( | Nhóm tuổi: 35-44    | Điểm TB: 3.28
+ID: 1010 | Phim: Lawrence of Arabia ( | Nhóm tuổi: 45-54    | Điểm TB: 3.62
+--------------------------------------------------
+ID: 1012 | Phim: Psycho (1960)        | Nhóm tuổi: 25-34    | Điểm TB: 4.50
+ID: 1012 | Phim: Psycho (1960)        | Nhóm tuổi: 35-44    | Điểm TB: 3.50
+--------------------------------------------------
+ID: 1013 | Phim: The Godfather: Part  | Nhóm tuổi: 18-24    | Điểm TB: 4.00
+ID: 1013 | Phim: The Godfather: Part  | Nhóm tuổi: 25-34    | Điểm TB: 3.71
+ID: 1013 | Phim: The Godfather: Part  | Nhóm tuổi: 35-44    | Điểm TB: 4.25
+--------------------------------------------------
+ID: 1015 | Phim: Sunset Boulevard (19 | Nhóm tuổi: 18-24    | Điểm TB: 4.50
+ID: 1015 | Phim: Sunset Boulevard (19 | Nhóm tuổi: 25-34    | Điểm TB: 4.00
+ID: 1015 | Phim: Sunset Boulevard (19 | Nhóm tuổi: 35-44    | Điểm TB: 4.50
+ID: 1015 | Phim: Sunset Boulevard (19 | Nhóm tuổi: 45-54    | Điểm TB: 4.50
+--------------------------------------------------
+ID: 1020 | Phim: E.T. the Extra-Terre | Nhóm tuổi: 18-24    | Điểm TB: 3.50
+ID: 1020 | Phim: E.T. the Extra-Terre | Nhóm tuổi: 25-34    | Điểm TB: 3.58
+ID: 1020 | Phim: E.T. the Extra-Terre | Nhóm tuổi: 35-44    | Điểm TB: 3.81
+ID: 1020 | Phim: E.T. the Extra-Terre | Nhóm tuổi: 45-54    | Điểm TB: 4.00
+ID: 1020 | Phim: E.T. the Extra-Terre | Nhóm tuổi: 55+      | Điểm TB: 3.00
+--------------------------------------------------
+ID: 1025 | Phim: The Terminator (1984 | Nhóm tuổi: 18-24    | Điểm TB: 4.50
+ID: 1025 | Phim: The Terminator (1984 | Nhóm tuổi: 25-34    | Điểm TB: 4.10
+ID: 1025 | Phim: The Terminator (1984 | Nhóm tuổi: 35-44    | Điểm TB: 4.00
+ID: 1025 | Phim: The Terminator (1984 | Nhóm tuổi: 45-54    | Điểm TB: 4.17
+ID: 1025 | Phim: The Terminator (1984 | Nhóm tuổi: 55+      | Điểm TB: 3.75
+--------------------------------------------------
+ID: 1028 | Phim: Fight Club (1999)    | Nhóm tuổi: 25-34    | Điểm TB: 3.50
+ID: 1028 | Phim: Fight Club (1999)    | Nhóm tuổi: 35-44    | Điểm TB: 3.50
+ID: 1028 | Phim: Fight Club (1999)    | Nhóm tuổi: 45-54    | Điểm TB: 3.50
+--------------------------------------------------
+ID: 1030 | Phim: The Silence of the L | Nhóm tuổi: 25-34    | Điểm TB: 3.00
+ID: 1030 | Phim: The Silence of the L | Nhóm tuổi: 35-44    | Điểm TB: 3.00
+ID: 1030 | Phim: The Silence of the L | Nhóm tuổi: 45-54    | Điểm TB: 3.33
+--------------------------------------------------
+ID: 1037 | Phim: The Lord of the Ring | Nhóm tuổi: 18-24    | Điểm TB: 4.00
+ID: 1037 | Phim: The Lord of the Ring | Nhóm tuổi: 25-34    | Điểm TB: 4.00
+ID: 1037 | Phim: The Lord of the Ring | Nhóm tuổi: 35-44    | Điểm TB: 3.69
+ID: 1037 | Phim: The Lord of the Ring | Nhóm tuổi: 45-54    | Điểm TB: 4.12
+--------------------------------------------------
+ID: 1039 | Phim: The Lord of the Ring | Nhóm tuổi: 25-34    | Điểm TB: 3.83
+ID: 1039 | Phim: The Lord of the Ring | Nhóm tuổi: 35-44    | Điểm TB: 3.75
+ID: 1039 | Phim: The Lord of the Ring | Nhóm tuổi: 45-54    | Điểm TB: 4.00
+--------------------------------------------------
+ID: 1040 | Phim: Gladiator (2000)     | Nhóm tuổi: 18-24    | Điểm TB: 3.50
+ID: 1040 | Phim: Gladiator (2000)     | Nhóm tuổi: 25-34    | Điểm TB: 3.42
+ID: 1040 | Phim: Gladiator (2000)     | Nhóm tuổi: 35-44    | Điểm TB: 3.75
+ID: 1040 | Phim: Gladiator (2000)     | Nhóm tuổi: 45-54    | Điểm TB: 3.88
+ID: 1040 | Phim: Gladiator (2000)     | Nhóm tuổi: 55+      | Điểm TB: 3.00
+--------------------------------------------------
+ID: 1043 | Phim: No Country for Old M | Nhóm tuổi: 18-24    | Điểm TB: 3.50
+ID: 1043 | Phim: No Country for Old M | Nhóm tuổi: 25-34    | Điểm TB: 3.83
+ID: 1043 | Phim: No Country for Old M | Nhóm tuổi: 35-44    | Điểm TB: 3.75
+ID: 1043 | Phim: No Country for Old M | Nhóm tuổi: 45-54    | Điểm TB: 4.38
+ID: 1043 | Phim: No Country for Old M | Nhóm tuổi: 55+      | Điểm TB: 3.50
+--------------------------------------------------
+ID: 1047 | Phim: The Social Network ( | Nhóm tuổi: 25-34    | Điểm TB: 4.00
+ID: 1047 | Phim: The Social Network ( | Nhóm tuổi: 35-44    | Điểm TB: 3.50
+ID: 1047 | Phim: The Social Network ( | Nhóm tuổi: 45-54    | Điểm TB: 4.00
+--------------------------------------------------
+ID: 1050 | Phim: Mad Max: Fury Road ( | Nhóm tuổi: 18-24    | Điểm TB: 3.00
+ID: 1050 | Phim: Mad Max: Fury Road ( | Nhóm tuổi: 25-34    | Điểm TB: 3.40
+ID: 1050 | Phim: Mad Max: Fury Road ( | Nhóm tuổi: 35-44    | Điểm TB: 3.64

@@ -1,0 +1,15 @@
+--- THONG KE DANH GIA THEO NGHE NGHIEP ---
+Nghe nghiep: Programmer      | Diem TB: 4.25 | Tong luot danh gia: 10
+Nghe nghiep: Student         | Diem TB: 4.00 | Tong luot danh gia: 8
+Nghe nghiep: Designer        | Diem TB: 4.00 | Tong luot danh gia: 13
+Nghe nghiep: Nurse           | Diem TB: 3.86 | Tong luot danh gia: 11
+Nghe nghiep: Consultant      | Diem TB: 3.86 | Tong luot danh gia: 14
+Nghe nghiep: Journalist      | Diem TB: 3.85 | Tong luot danh gia: 17
+Nghe nghiep: Artist          | Diem TB: 3.73 | Tong luot danh gia: 11
+Nghe nghiep: Teacher         | Diem TB: 3.70 | Tong luot danh gia: 5
+Nghe nghiep: Doctor          | Diem TB: 3.69 | Tong luot danh gia: 21
+Nghe nghiep: Lawyer          | Diem TB: 3.65 | Tong luot danh gia: 17
+Nghe nghiep: Salesperson     | Diem TB: 3.65 | Tong luot danh gia: 17
+Nghe nghiep: Accountant      | Diem TB: 3.58 | Tong luot danh gia: 6
+Nghe nghiep: Engineer        | Diem TB: 3.56 | Tong luot danh gia: 18
+Nghe nghiep: Manager         | Diem TB: 3.47 | Tong luot danh gia: 16

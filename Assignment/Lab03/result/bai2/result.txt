@@ -1,0 +1,13 @@
+--- DIEM TRUNG BINH THEO TUNG THE LOAI ---
+The loai: Film-Noir       | Diem TB: 4.36
+The loai: Horror          | Diem TB: 4.00
+The loai: Mystery         | Diem TB: 4.00
+The loai: Fantasy         | Diem TB: 3.86
+The loai: Crime           | Diem TB: 3.81
+The loai: Drama           | Diem TB: 3.76
+The loai: Sci-Fi          | Diem TB: 3.73
+The loai: Action          | Diem TB: 3.71
+The loai: Thriller        | Diem TB: 3.70
+The loai: Family          | Diem TB: 3.67
+The loai: Adventure       | Diem TB: 3.63
+The loai: Biography       | Diem TB: 3.56

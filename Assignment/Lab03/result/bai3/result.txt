@@ -1,0 +1,42 @@
+--- DIEM TRUNG BINH PHIM THEO GIOI TINH ---
+----------------------------------------
+ID: 1010 | Phim: Lawrence of Arabia (1962) | Giới tính: F | Điểm TB: 3.31
+ID: 1010 | Phim: Lawrence of Arabia (1962) | Giới tính: M | Điểm TB: 3.55
+----------------------------------------
+ID: 1012 | Phim: Psycho (1960)             | Giới tính: F | Điểm TB: 4.00
+----------------------------------------
+ID: 1013 | Phim: The Godfather: Part II (1 | Giới tính: F | Điểm TB: 3.94
+ID: 1013 | Phim: The Godfather: Part II (1 | Giới tính: M | Điểm TB: 4.06
+----------------------------------------
+ID: 1015 | Phim: Sunset Boulevard (1950)   | Giới tính: F | Điểm TB: 4.50
+ID: 1015 | Phim: Sunset Boulevard (1950)   | Giới tính: M | Điểm TB: 4.33
+----------------------------------------
+ID: 1020 | Phim: E.T. the Extra-Terrestria | Giới tính: F | Điểm TB: 3.55
+ID: 1020 | Phim: E.T. the Extra-Terrestria | Giới tính: M | Điểm TB: 3.81
+----------------------------------------
+ID: 1025 | Phim: The Terminator (1984)     | Giới tính: F | Điểm TB: 4.14
+ID: 1025 | Phim: The Terminator (1984)     | Giới tính: M | Điểm TB: 3.93
+----------------------------------------
+ID: 1028 | Phim: Fight Club (1999)         | Giới tính: F | Điểm TB: 3.50
+ID: 1028 | Phim: Fight Club (1999)         | Giới tính: M | Điểm TB: 3.50
+----------------------------------------
+ID: 1030 | Phim: The Silence of the Lambs  | Giới tính: F | Điểm TB: 3.00
+ID: 1030 | Phim: The Silence of the Lambs  | Giới tính: M | Điểm TB: 3.33
+----------------------------------------
+ID: 1037 | Phim: The Lord of the Rings: Th | Giới tính: F | Điểm TB: 3.80
+ID: 1037 | Phim: The Lord of the Rings: Th | Giới tính: M | Điểm TB: 4.00
+----------------------------------------
+ID: 1039 | Phim: The Lord of the Rings: Th | Giới tính: F | Điểm TB: 3.90
+ID: 1039 | Phim: The Lord of the Rings: Th | Giới tính: M | Điểm TB: 3.75
+----------------------------------------
+ID: 1040 | Phim: Gladiator (2000)          | Giới tính: F | Điểm TB: 3.64
+ID: 1040 | Phim: Gladiator (2000)          | Giới tính: M | Điểm TB: 3.59
+----------------------------------------
+ID: 1043 | Phim: No Country for Old Men (2 | Giới tính: F | Điểm TB: 3.83
+ID: 1043 | Phim: No Country for Old Men (2 | Giới tính: M | Điểm TB: 3.92
+----------------------------------------
+ID: 1047 | Phim: The Social Network (2010) | Giới tính: F | Điểm TB: 3.67
+ID: 1047 | Phim: The Social Network (2010) | Giới tính: M | Điểm TB: 4.00
+----------------------------------------
+ID: 1050 | Phim: Mad Max: Fury Road (2015) | Giới tính: F | Điểm TB: 3.32
+ID: 1050 | Phim: Mad Max: Fury Road (2015) | Giới tính: M | Điểm TB: 4.00

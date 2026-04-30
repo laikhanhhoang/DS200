@@ -1,0 +1,20 @@
+--- DANH SACH THONG KE (>= 5 DANH GIA) ---
+ID: 1015 | Phim: Sunset Boulevard (1950) | Diem TB: 4.36 | So luot: 7
+ID: 1050 | Phim: Mad Max: Fury Road (2015) | Diem TB: 3.47 | So luot: 18
+ID: 1037 | Phim: The Lord of the Rings: The Fellowship of the Ring (2001) | Diem TB: 3.89 | So luot: 18
+ID: 1043 | Phim: No Country for Old Men (2007) | Diem TB: 3.89 | So luot: 18
+ID: 1028 | Phim: Fight Club (1999) | Diem TB: 3.50 | So luot: 7
+ID: 1047 | Phim: The Social Network (2010) | Diem TB: 3.86 | So luot: 7
+ID: 1013 | Phim: The Godfather: Part II (1974) | Diem TB: 4.00 | So luot: 17
+ID: 1010 | Phim: Lawrence of Arabia (1962) | Diem TB: 3.44 | So luot: 18
+ID: 1040 | Phim: Gladiator (2000) | Diem TB: 3.61 | So luot: 18
+ID: 1025 | Phim: The Terminator (1984) | Diem TB: 4.06 | So luot: 18
+ID: 1030 | Phim: The Silence of the Lambs (1991) | Diem TB: 3.14 | So luot: 7
+ID: 1020 | Phim: E.T. the Extra-Terrestrial (1982) | Diem TB: 3.67 | So luot: 18
+ID: 1039 | Phim: The Lord of the Rings: The Return of the King (2003) | Diem TB: 3.82 | So luot: 11
+
+==================================================
+PHIM CO DIEM TRUNG BINH CAO NHAT (>= 5 danh gia):
+Ten phim: Sunset Boulevard (1950)
+Diem trung binh: 4.36
+So luot danh gia: 7
